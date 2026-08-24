@@ -890,7 +890,7 @@ export default function Home() {
               delay: 0.25,
               ease: [0.16, 1, 0.3, 1],
             }}
-            className="relative mx-auto hidden w-full max-w-[420px] lg:block"
+            className="relative mx-auto block w-full max-w-[320px] sm:max-w-[360px] lg:max-w-[420px]"
           >
 
             <motion.div
@@ -949,11 +949,10 @@ export default function Home() {
               <div className="relative overflow-hidden rounded-[2rem]">
 
                 <img
-                  src="/profile.png"
-                  alt="Dev - Developer"
-                  className="h-[540px] w-full object-cover object-center transition duration-700 hover:scale-105"
-                />
-
+  src="/profile.png"
+  alt="Dev - Developer"
+  className="h-[420px] w-full object-cover object-center transition duration-700 hover:scale-105 sm:h-[480px] lg:h-[540px]"
+/>
                 <div className="absolute inset-0 bg-gradient-to-t from-[#050507] via-transparent to-transparent" />
 
                 <motion.div
